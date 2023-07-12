@@ -111,6 +111,48 @@ header a{
 
 /* Main-end */
 
+/*------------------------
+          About Me  
+  -----------------------*/
+.about-me{
+   width: 100%;
+   height: 700px;
+   border-bottom: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.about-me-title{
+   width: 400px;
+   margin-left: 50px;
+}
+.list{
+   width: 300px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.about-me img{
+   width: 300px;
+   border-radius: 30px;
+}
+.about-me-title h1{
+   font-size: 45px;
+}
+.about-me-title h2{
+   font-size: 25px;
+}
+.about-me-title p{
+   font-size: 14px;
+}
+.about-me-title li{
+   font-size: 14px;
+}
+
+/*--------------------------
+        About Me Ends  
+---------------------------*/
+
 .footer{
     margin: 0px;
     padding-top: 10px;
@@ -317,6 +359,17 @@ header a{
       display: block;
       overflow: visible;
    }
+   .about-me{
+      height: 1200px;
+      flex-direction: column;
+   }
+   .about-me-title{
+      order: 1;
+      margin-bottom: 50px;
+   }
+   .about-me-photo{
+      order: 2;
+   }
 }
 
 
@@ -338,5 +391,11 @@ header a{
    }
    .image img{
       width: 300px;
+   }
+   .about-me-title{
+      width: 300px;
+   }
+   .about-me img{
+      width: 250px;
    }
 }
